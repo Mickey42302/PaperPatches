@@ -1,6 +1,10 @@
 {
     "pack": {
         "description": "Built-in Paper Datapack",
+<<<<<<< HEAD
         "pack_format": 61
+=======
+        "pack_format": ${version}
+>>>>>>> e870b7a28a (Generators)
     }
 }
