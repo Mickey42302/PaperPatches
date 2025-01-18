@@ -116,7 +116,7 @@ fun TaskContainer.registerGenerationTask(
             source.forEach { inputs.dir(it) }
             outputs.dirs(source)
         } else {
-            outputs.dirs(projectDirs.map { it.dir("src/main/generated") })
+            outputs.dirs(projectDirs.map { it.dir("src/generated/java") })
         }
     } else {
         error("Projects $targetProjects unavailable during configuration phase")
